@@ -1,6 +1,9 @@
 import "./App.css";
-import Reducer from "./components/3-3.Hooks/Reducer";
-import State from "./components/3-3.Hooks/State";
+import ThankyouDialog from "./components/3-6.Composition2/ThankyouDialog";
+// import Dialog from "./components/3-6.Composition2/Dialog";
+// import WelcomeDialog from "./components/3-5.Composition/WelcomeDialog";
+// import Reducer from "./components/3-3.Hooks/Reducer";
+// import State from "./components/3-3.Hooks/State";
 // import UncontrolledComponent from "./components/2-10.Form/UncontrolledComponent";
 // import ControlledComponent from "./components/2-10.Form/ControlledComponent";
 // import List from "./components/2-9.List/List";
@@ -15,8 +18,11 @@ import State from "./components/3-3.Hooks/State";
 function App() {
   return (
     <div className="App">
-      <Reducer />
-      <State />
+      <ThankyouDialog />
+      {/* <Dialog /> */}
+      {/* <WelcomeDialog /> */}
+      {/* <Reducer />
+      <State /> */}
       {/* <UncontrolledComponent />
       <ControlledComponent /> */}
       {/* <List /> */}
