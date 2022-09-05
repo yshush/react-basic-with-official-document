@@ -1,5 +1,6 @@
 import "./App.css";
-import Event from "./components/2-7.Event/Event";
+import Condition from "./components/2-8.ConditionalRendering/Condition";
+// import Event from "./components/2-7.Event/Event";
 // import Composition from "./components/2-4.props/Composition";
 // import Extraction from "./components/2-4.props/Extraction/Extraction";
 // import ClassComponent from "./components/2-5.State/ClassComponent";
@@ -9,7 +10,8 @@ import Event from "./components/2-7.Event/Event";
 function App() {
   return (
     <div className="App">
-      <Event />
+      <Condition />
+      {/* <Event /> */}
       {/* <ClassComponent2 /> */}
       {/* <FunctionalComponent />
       <ClassComponent />
